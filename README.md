@@ -16,6 +16,11 @@ The test suites were developed using the Model-based testing (MBT) tool, [GraphW
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=fqBqYCP4vyA" target="_blank"><img src="http://img.youtube.com/vi/fqBqYCP4vyA/0.jpg" 
  width="240" height="180" border="10" /></a>
  
+# Documentation
+
+[Here is a detailed 52-page technical report (PDF file)](https://github.com/vgarousi/MBTofCOVIDapps/blob/595dde126f50d6a6fe27698be23cf0609a45f0be/docs/Technical%20report-%20MBTofCOVIDapps-May%2017.pdf) which documents the design and other important aspects of the test suites:
+
+
 # Usge and installation steps:
 
 ## Prerequisites
