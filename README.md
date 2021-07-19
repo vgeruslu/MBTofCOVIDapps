@@ -2,9 +2,9 @@
 
 This respository contains two automated test suites to test the following two COVID contact-tracing apps: (1) [NHS Covid-19 app](https://play.google.com/store/apps/details?id=uk.nhs.covid19.production) and (2) [Protect Scotland](https://play.google.com/store/apps/details?id=gov.scot.covidtracker).
 
-The test suites were developed during Spring 2021, as part of a Final-Year capstone engineering project in Queen's University Belfast, UK.
-
 The test suites were developed using the Model-based testing (MBT) tool, [GraphWalker](http://graphwalker.github.io), using the Appium Framwork.
+
+The test suites were developed during Spring 2021, as part of a Final-Year capstone engineering project in Queen's University Belfast, UK.
 
 # Development team 
 * (Supervisor): [Dr. Vahid Garousi](https://www.vgarousi.com), Professor of Software Engineering, Queen's University Belfast; and Managing Consultant, Bahar Software Engineering Consulting Corporation, UK
