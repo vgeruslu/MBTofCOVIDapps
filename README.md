@@ -1,7 +1,10 @@
-Automated test suites to test (two) COVID contact-tracing apps 
----
+# Automated test suites to test (two) COVID contact-tracing apps 
 
-VG05 is a Java Maven project that uses [GraphWalker](http://graphwalker.github.io) (Model based testing tool) with Appium Framwork to test two COVID-19 Android apps: [NHS Covid-19 app](https://play.google.com/store/apps/details?id=uk.nhs.covid19.production) and [Protect Scotland](https://play.google.com/store/apps/details?id=gov.scot.covidtracker)
+This respository contains two automated test suites to test the following two COVID contact-tracing apps: (1) [NHS Covid-19 app](https://play.google.com/store/apps/details?id=uk.nhs.covid19.production) and (2) [Protect Scotland](https://play.google.com/store/apps/details?id=gov.scot.covidtracker).
+
+The test suites were developed during Spring 2021, as paet of a Final-Year capstone engineering project in Queen's University Belfast, UK.
+
+The test suites were developed using the Model-based testing (MBT) tool, [GraphWalker](http://graphwalker.github.io), using the Appium Framwork.
 
 # Development team 
 * (Team lead): [Dr. Vahid Garousi](https://www.vgarousi.com), Professor of Software Engineering and Managing Consultant, UK
