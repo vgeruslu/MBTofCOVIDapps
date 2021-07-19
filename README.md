@@ -1,9 +1,17 @@
-VG05-Development of automated test suites to test COVID contact-tracing apps 
+Automated test suites to test (two) COVID contact-tracing apps 
 ---
 
-VG05 is a Java Maven project that uses [GraphWalker](http://graphwalker.github.io) (Model based testing tool) with Appium Framwork to test Covid-19 Android apps
+VG05 is a Java Maven project that uses [GraphWalker](http://graphwalker.github.io) (Model based testing tool) with Appium Framwork to test two COVID-19 Android apps: [NHS Covid-19 app](https://play.google.com/store/apps/details?id=uk.nhs.covid19.production) and [Protect Scotland](https://play.google.com/store/apps/details?id=gov.scot.covidtracker)
 
-### Prerequisites
+# Development team 
+* (Team lead): [Dr. Vahid Garousi](https://www.vgarousi.com), Professor of Software Engineering and Managing Consultant, UK
+* [Mark Lee](https://www.linkedin.com/in/mark-lee-928373172/): Mark worked on the project as his Final-Year capstone engineering project in Queen's University Belfast, UK
+
+# Demo videos
+
+# Usge and installation steps:
+
+## Prerequisites
 1. [Appium](http://appium.io/) is a driver to interact with mobile app.
 2. [Android SDK Command-Line Tools](https://developer.android.com/studio/command-line)
 
@@ -17,14 +25,14 @@ The SUTs are (tested in Android Version 11):
 1. [Protect Scotland](https://play.google.com/store/apps/details?id=gov.scot.covidtracker&hl=en_GB&gl=US)
 2. [NHS Covid-19](https://play.google.com/store/apps/details?id=uk.nhs.covid19.production&hl=en_GB&gl=US) 
 
-### Device Setup
+## Device Setup
 Android 11 device required: 
    1. Development options enabled [(Guide)](https://www.howtogeek.com/129728/how-to-access-the-developer-options-menu-and-enable-usb-debugging-on-android-4.2/#:~:text=How%20to%20Access%20the%20Developer,and%20find%20the%20Build%20number.&text=Tap%20the%20Build%20number%20field%20seven%20times%20to%20enable%20Developer%20Options.)  
    2. USB debugging mode turned on when your test device is connected via USB
 
 The test will open the app on the USB connected Android device, and start running the test:
 
-### Test Configuration
+## Test Configuration
 The code that implements the abstract test suites is located at:
 
 ```
@@ -56,15 +64,15 @@ the the path generator is the random path generator, and the stop condition is w
 2. `start = "v_Start"`
 Tells GraphWalker where to start the execution. `v_Start` will be the first graph element to be executed.
 
-#### Config file
+## Config file
 ```
 src/main/resources/config.properties
 ```
 Updated test configurations here
 
-### Run MBT test suites
+# Runing the MBT test suites
 
-#### via Junit
+## via Junit
 with GraphWalker WebSocket server to visualise live playback on GraphWalker Studio
 
 NHS Covid-19 MBT test suites
@@ -130,7 +138,7 @@ src/test/java/qub/vg05/systemui/tests/GraphWalkerProtectScotlandTest.java
     }
 ```
 
-#### via Maven
+## via Maven
 NHS Covid-19 MBT test suites
 ```
 mvn graphwalker:test -Dgroups=nhs  
