@@ -7,7 +7,7 @@ The test suites were developed during Spring 2021, as part of a Final-Year capst
 The test suites were developed using the Model-based testing (MBT) tool, [GraphWalker](http://graphwalker.github.io), using the Appium Framwork.
 
 # Development team 
-* (Supervisor): [Dr. Vahid Garousi](https://www.vgarousi.com), Professor of Software Engineering and Managing Consultant, UK
+* (Supervisor): [Dr. Vahid Garousi](https://www.vgarousi.com), Professor of Software Engineering, Queen's University Belfast; and Managing Consultant, Bahar Software Engineering Consulting Corporation, UK
 * [Mark Lee](https://www.linkedin.com/in/mark-lee-928373172/): Mark worked on the project as his Final-Year capstone engineering project in Queen's University Belfast, UK
 
 # Demo videos
